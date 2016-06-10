@@ -18,8 +18,8 @@ var Navigation = () => {
           </ul>
         </div>
         <div className='top-bar-right'>
-          <ul classname='menu'>
-            <li classname='menu-text'>
+          <ul className='menu'>
+            <li className='menu-text' id='myname'>
               Created by <a href='https://github.com/rayGreycloud/timer-react' target='_blank'>Ray Greycloud</a>
             </li>
           </ul>
