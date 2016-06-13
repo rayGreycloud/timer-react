@@ -23,7 +23,7 @@ var Countdown = React.createClass({
       var newCount = this.state.count - 1;
       this.setState({
         count: newCount >= 0 ? newCount : 0
-      });  
+      });
     }, 1000);
   },
   handleSetCountdown: function(seconds) {
